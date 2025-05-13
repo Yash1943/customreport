@@ -1,0 +1,15 @@
+{
+  "name": "customreport",
+  "version": "1.0.0",
+  "description": "Yash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd report && yarn install",
+    "dev": "cd report && yarn dev",
+    "build": "cd report && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
